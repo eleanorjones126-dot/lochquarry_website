@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="lochquarrystylesheet.css">
+</head>
+
+<body>
+<header> 
+ <div class="logo">
+    <img src="images/lochquarrylogo.png" alt="lochquarry logo"  height="90" width="100" >
+</div>
+
+<nav>
+    <a href="index.html"> Home Page | </a> 
+    <a href="page1.html">Site Information |</a> 
+    <a href="page2.html">Land-Based Activities |</a> 
+    <a href="page3.html">Water-Based Activities |</a> 
+    <a href="page4.html">Rope-Based Activities</a> 
+</nav>
+<a onmouseover="style.color='white'" onmouseout="style.color='black'"> </a>
+</header>
+
+<main>
+    <p id="message"></p>
+    <script> 
+let person = prompt("please enter your email address", "");
+document.getElementById("message").innerHTML = ("we will contact " + person + " with promotions and information about lochquarry outdoor centre");
+</script>
+
+<h1> Lochquarry Outdoor Centre</h1>
+<p> Lochquarry Outdoor Centre is set in acres of land in the heart of the majestic 
+    Argyll hills. On our doorstep is not only magnificent scenery, but also a breath-taking 
+    selection of outdoor and adventurous activities.
+    With activities designed to meet the needs of all ages and experiences of young people, 
+    Lochquarry truly brings adventure to everyone. </p>
+
+<p> Our activities are very popular with youth groups including Scouts and Guides. </p>
+
+<p> To book your next adventure at Lochquarry, please phone 01475 229 8311.
+</p>
+
+
+<img src="images/Hillwalking_3.jpg" alt="hiker overlooking scenic hills" height="500" width="750">
+
+<p>'We had a great time and loved all the different activities that we did'</p>
+<p><em>- 8th Gourock Guides</em></p>
+
+<p>'The kids had a ball and didn't want to leave'</p>
+<p><em>- Mr Evans, PE teacher</em></p>
+
+<p>'Five stars, it was great'</p>
+<p><em>- Joe, aged 14</em></p>
+</main>
+
+<footer>
+<p id="dt"></p>
+<script> 
+document.getElementById("dt").innerHTML = new Date();
+</script>
+
+<div class="socials">
+       <a href="https://www.instagram.com"><img src="images/instagram_compressed.png" alt="instagram logo" height="30" width="30"></a>
+    <a href="https://www.facebook.com"><img src="images/facebook_compressed.png" alt="facebook logo" height="30" width="30"></a>
+    <a href="https://www.whatsapp.com"><img src="images/whatsapp_compressed.png" alt="whatsapp logo" height="30" width="30"></a>
+    <a href="https://www.youtube.com"><img src="images/youtube_compressed.png" alt="youtube logo" height="30" width="30"></a>
+</div>
+</footer>
+
+</body>
+</html>
